@@ -1,0 +1,24 @@
+MAIN: mov r3, LENGTH
+LOOP: jmp L1
+prn #48
+prn #49
+prn #50
+sub r1, r4
+bne END
+L1: inc K
+dec r7
+bne LOOP
+mov r5, nonexistentLabel  
+cmp r2, #1111111
+.entry MAIN
+.extern EXIT
+END: stp  
+LENGTH: .data 6,-9,15,30013837
+    .data 6,-9,15.6,300
+K: .data abc
+    .string
+STR: .string "
+STR: .string "abc
+STR: .string abc"
+STR: .string "" 
+.data 100, 200, , 111111111111111

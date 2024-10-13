@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "table.h": "c",
+        "list.h": "c",
+        "firstpass.h": "c",
+        "string.h": "c",
+        "utils.h": "c",
+        "definitions.h": "c",
+        "utilserror.h": "c",
+        "processinglinefunct.h": "c",
+        "errors.h": "c",
+        "secondpass.h": "c",
+        "utilspass.h": "c",
+        "preAssembler.h": "c",
+        "command.h": "c",
+        "macro.h": "c",
+        "symbolappearance.h": "c",
+        "symbol.h": "c",
+        "freeingallocationsfunc.h": "c",
+        "stdio.h": "c",
+        "testing.h": "c"
+    }
+}
